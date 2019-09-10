@@ -20,3 +20,36 @@ I think that I am maybe the that is not fully comprehending computer science at 
 prior knowlegde like carlos. But this I ereally feel myseft insides the class. It is going me the motivation to continu. 
 We start to work on OSI and how every thing is connected. and that nothing will be possible without the physical part. We learn the different layer form the physical to the most abstract. 
 The next part was the best we create a code in PUG that we translate into HTML for us to be able to use it in the terminal.
+
+Day 5 
+Today was really nice, we work one  donwloading and setting up WebStrom  and intergrate Ctylus, Coffeescript and Pug via out terminal.
+In order to create a Webpage with the attribute we wanted, we  had to configurate the WebStrom prefferences to had all the features dwonload throuht the terminal.
+Next we played with the code that was already constract for us by the teacher.
+
+This is an example of the html code that I change in order to add a pisture:
+doctype html
+head
+    title My first styled page
+    link(rel='stylesheet' href='mystyle.css')
+    script(type='text/javascript' src='interactive.js')
+    link(rel='stylesheet' href='mystyle.css')
+    title My first styled page
+ul.navbar
+    li
+        a(href='index.html') Home page
+    li
+        a(href='town.html') My town
+    li
+        a(href='links.html') Links
+h1 My first styled page
+p
+    | Welcome to my styled page!
+    section
+        nav
+            ul
+                li.title Study Earth
+                li.robot
+                    img(src='Earth.jpg' alt='Earth' width='10px')
+                    article
+                        footer
+                            img(src='https://upload.wikimedia.org/wikipedia/commons/9/97/The_Earth_seen_from_Apollo_17.jpg')
