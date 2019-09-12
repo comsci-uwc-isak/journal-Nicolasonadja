@@ -53,3 +53,6 @@ p
                     article
                         footer
                             img(src='https://upload.wikimedia.org/wikipedia/commons/9/97/The_Earth_seen_from_Apollo_17.jpg')
+
+
+DAY 6 (Sept 12)
