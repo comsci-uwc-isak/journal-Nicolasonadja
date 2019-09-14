@@ -56,3 +56,4 @@ p
 
 
 DAY 6 (Sept 12)
+Today class was relaxing, i am not saying it was too easy but i will say intertaining, we work on creating a logging page by using pug syntax that is convert into HTML. It was facination because as we were going toward the page started to look like a actual logging page. I did not expect that, because i thought it will be harder even if we haven actually work on the back end, I was really happy of the work I have done.
