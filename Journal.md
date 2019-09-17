@@ -57,3 +57,19 @@ p
 
 DAY 6 (Sept 12)
 Today class was relaxing, i am not saying it was too easy but i will say intertaining, we work on creating a logging page by using pug syntax that is convert into HTML. It was facination because as we were going toward the page started to look like a actual logging page. I did not expect that, because i thought it will be harder even if we haven actually work on the back end, I was really happy of the work I have done.
+
+
+
+DAY 7 ( September 17)
+For today we had class on Data security (app for Symmetrical Key cryptography)
+To protect the data it possible to ENCRYPT THE DATA.
+
+For the encryption to work we need it to be Symmetric.
+Therefore we have a  
+- A public key which is use and know by everybody.
+- A private key which is only know by the the person sending the encrypt text.
+
+For the next part of the class we work on on creating an encryption tool as a webside and that was really cool.
+And I think when it will be done I may use it as a communication tool with friend.
+
+
