@@ -73,3 +73,9 @@ For the next part of the class we work on on creating an encryption tool as a we
 And I think when it will be done I may use it as a communication tool with friend.
 
 
+DAY 8 Sept 19
+Today in class we work on constracting the code for the encription tool, I can not wait to see it working to use it.
+Te thing is in class sometime I feel really lost in class and I think I know why. It because the teaching methode of This year teacher is completely different from the teacher last years. This years I do not clearly see the seperation between the non ib 
+lesson and the one that are part of the curriculum. Because even if I like learning new things that are also relevant, I really need to undersdant and clerly integrate what I need to know for the test as my grade need to go up.
+
+
