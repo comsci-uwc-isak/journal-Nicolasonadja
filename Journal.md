@@ -73,9 +73,16 @@ For the next part of the class we work on on creating an encryption tool as a we
 And I think when it will be done I may use it as a communication tool with friend.
 
 
-DAY 8 Sept 19
+DAY 8 (Sept 19)
 Today in class we work on constracting the code for the encription tool, I can not wait to see it working to use it.
 Te thing is in class sometime I feel really lost in class and I think I know why. It because the teaching methode of This year teacher is completely different from the teacher last years. This years I do not clearly see the seperation between the non ib 
 lesson and the one that are part of the curriculum. Because even if I like learning new things that are also relevant, I really need to undersdant and clerly integrate what I need to know for the test as my grade need to go up.
+
+DAY 9 (Sept 20)
+In class today we worked on pur Ai espetially on the ER diagram to represent the entity pof the data base for our website
+Honestly i haven finish it the diagram but I will keep working on it and hope to have it done by the end of this month. Also I really need to get back my licence for SKETCH in oder to get back my design for all the Student page and the admin page.
+
+DAY 10 (Sept 26)
+Today in class we work on creating a data base, on Php in order to add the information form our previous login page we create. I find the class really engaging and now I think my plan in Cs are to study for the next week test in order to get a good grade. I hope the test will be too much hard as I need a higher pg. But definetly I will go throught all the content of the chapter to be ready for next week.
 
 
