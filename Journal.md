@@ -86,3 +86,37 @@ DAY 10 (Sept 26)
 Today in class we work on creating a data base, on Php in order to add the information form our previous login page we create. I find the class really engaging and now I think my plan in Cs are to study for the next week test in order to get a good grade. I hope the test will be too much hard as I need a higher pg. But definetly I will go throught all the content of the chapter to be ready for next week.
 
 
+DAY 11 ( Sept 27)
+http://github.com - automatic!
+[GitHub](http://192.168.6.34/welcome.html)
+
+<?php
+   include("config.php");
+   session_start();
+   if($_SERVER["REQUEST_METHOD"]=="POST"){
+       //username and password sent from form
+       $myusername = mysqli_real_escape_string($db,$_POST['username']);
+       $mypassword = mysqli_real_escape_string($db,$_POST['password']);
+       $sql = "SELECT id FROM admin WHERE username = '$myusername' and password = '$mypassword'";
+       $result= mysqli_query($db,$sql);
+       $row = mysqli_fetch_array($result,MYSQLI_ASSOC);
+       $active = $row['active'];
+       $count = mysqli_num_rows($result);
+       //If result matched $myusername and $mypassword, table row must be 1 row
+       if ($count == 1){
+           $error = "good";
+           header("location:welcome.html");
+           die();
+       }else {
+            $error = "Your Login Name or Password is invalid";
+       }
+   }
+?>
+<html>
+<?php echo $error; ?>
+</html>
+
+
+The precedent code is the code that we use to create the logging page. 
+The result is
+![Image of my page ](https://octodex.github.com/images/yaktocat.png)
