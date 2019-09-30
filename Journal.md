@@ -118,5 +118,5 @@ http://github.com - automatic!
 
 
 The precedent code is the code that we use to create the logging page. 
-The result is
-![Image of my page ](
+The result is and image of my page
+![image of my page](https://raw.githubusercontent.com/comsci-uwc-isak/journal-Nicolasonadja/master/Screen%20Shot%202019-10-01%20at%206.27.35.png)
