@@ -119,4 +119,4 @@ http://github.com - automatic!
 
 The precedent code is the code that we use to create the logging page. 
 The result is
-![Image of my page ](https://octodex.github.com/images/yaktocat.png)
+![Image of my page ](
