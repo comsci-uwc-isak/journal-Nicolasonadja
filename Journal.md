@@ -123,17 +123,15 @@ The result is and image of my page
 
 
 
-DAY 12
+DAY 12(4 October)
 For today I work on my Ai in term of creating the data base and also looking into the Mamp in term of creation of my local server. i do think that there is big challange that are out there witing for me and by challange I mean coding part of the website.
 
-Day 13
+Day 13 (7th October)
 Today we work on a program to find the *unique* program that calculates the statistics (mean, median, q1, q3, IQR) of the scores below (out of 45):
 
 21, 33, 26, 39, 28, 32.5, 18.5, 27, 31.5, 29, 26.5, 31.5, 24, 35.5, 22.5, 25, 25.5, 19
 
 Here is the program
-
-
 public class Createauniqueprogram {
     public static void main(String[] args) {
         double[] A = {21, 33, 26, 39, 28, 32.5, 18.5, 27, 31.5, 29, 26.5, 31.5, 24, 35.5, 22.5, 25, 25.5, 19};
