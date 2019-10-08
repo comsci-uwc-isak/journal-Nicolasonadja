@@ -120,3 +120,69 @@ http://github.com - automatic!
 The precedent code is the code that we use to create the logging page. 
 The result is and image of my page
 ![image of my page](https://raw.githubusercontent.com/comsci-uwc-isak/journal-Nicolasonadja/master/Screen%20Shot%202019-10-01%20at%206.27.35.png)
+
+
+
+DAY 12
+For today I work on my Ai in term of creating the data base and also looking into the Mamp in term of creation of my local server. i do think that there is big challange that are out there witing for me and by challange I mean coding part of the website.
+
+Day 13
+Today we work on a program to find the *unique* program that calculates the statistics (mean, median, q1, q3, IQR) of the scores below (out of 45):
+
+21, 33, 26, 39, 28, 32.5, 18.5, 27, 31.5, 29, 26.5, 31.5, 24, 35.5, 22.5, 25, 25.5, 19
+
+Here is the program
+
+
+public class Createauniqueprogram {
+    public static void main(String[] args) {
+        double[] A = {21, 33, 26, 39, 28, 32.5, 18.5, 27, 31.5, 29, 26.5, 31.5, 24, 35.5, 22.5, 25, 25.5, 19};
+        double TEMP;
+        double mean=0;
+        for (int j = 0; j < A.length; j++) {
+            int MIN = j;
+            for (int K = j + 1; K < A.length; K++) {
+                if (A[K] < A[MIN]) {
+                    MIN = K;
+                }
+            }
+            TEMP = A[j];
+            A[j] = A[MIN];
+            A[MIN] = TEMP;
+            System.out.println(A[j]);
+
+            }
+        for (int m = 1; m < A.length; m++){
+            mean = mean + A[m];
+        }
+        mean = mean/45;
+        System.out.println();
+
+        System.out.println("mean =");
+        System.out.println(mean);
+
+        int t = A.length/2;
+        double median = A[t];
+        System.out.println();
+        System.out.println("median =");
+        System.out.println(median);
+
+        int x = A.length/4;
+        double Q1= A[x];
+        System.out.println();
+        System.out.println("Q1 =");
+        System.out.println(Q1);
+
+        int y = A.length/4 + A.length/2;
+        double Q3= A[y];
+        System.out.println();
+        System.out.println("Q3 =");
+        System.out.println(Q3);
+
+        double IQR = Q3-Q1;
+        System.out.println();
+        System.out.println("IQR =");
+        System.out.println(IQR);
+        
+    }
+}
